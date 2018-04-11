@@ -1,0 +1,137 @@
+PODS:
+  - AWSCore (2.6.13)
+  - AWSDynamoDB (2.6.13):
+    - AWSCore (= 2.6.13)
+  - boost (1.59.0):
+    - boost/graph-includes (= 1.59.0)
+    - boost/math-includes (= 1.59.0)
+    - boost/numeric-includes (= 1.59.0)
+    - boost/pointer_cast-includes (= 1.59.0)
+    - boost/preprocessor-includes (= 1.59.0)
+    - boost/shared_ptr-includes (= 1.59.0)
+    - boost/string_algorithms-includes (= 1.59.0)
+  - boost/graph-includes (1.59.0)
+  - boost/math-includes (1.59.0)
+  - boost/numeric-includes (1.59.0)
+  - boost/pointer_cast-includes (1.59.0)
+  - boost/preprocessor-includes (1.59.0)
+  - boost/shared_ptr-includes (1.59.0)
+  - boost/string_algorithms-includes (1.59.0)
+  - DoubleConversion (1.1.5)
+  - Folly (2016.09.26.00):
+    - boost
+    - DoubleConversion
+    - GLog
+  - GLog (0.3.4)
+  - GoogleToolboxForMac/Defines (2.1.0)
+  - GoogleToolboxForMac/Logger (2.1.0):
+    - GoogleToolboxForMac/Defines (= 2.1.0)
+  - GTMSessionFetcher/Core (1.1.6)
+  - GVRAudioSDK (1.120.0)
+  - GVRSDK (1.120.0):
+    - GoogleToolboxForMac/Logger (= 2.1.0)
+    - GTMSessionFetcher/Core (= 1.1.6)
+  - React/Core (0.51.1):
+    - yoga (= 0.51.1.React)
+  - React/CxxBridge (0.51.1):
+    - Folly (= 2016.09.26.00)
+    - React/Core
+    - React/cxxreact
+  - React/cxxreact (0.51.1):
+    - boost
+    - Folly (= 2016.09.26.00)
+    - React/jschelpers
+  - React/DevSupport (0.51.1):
+    - React/Core
+    - React/RCTWebSocket
+  - React/fishhook (0.51.1)
+  - React/jschelpers (0.51.1):
+    - Folly (= 2016.09.26.00)
+    - React/PrivateDatabase
+  - React/PrivateDatabase (0.51.1)
+  - React/RCTAnimation (0.51.1):
+    - React/Core
+  - React/RCTBlob (0.51.1):
+    - React/Core
+  - React/RCTGeolocation (0.51.1):
+    - React/Core
+  - React/RCTImage (0.51.1):
+    - React/Core
+    - React/RCTNetwork
+  - React/RCTNetwork (0.51.1):
+    - React/Core
+  - React/RCTText (0.51.1):
+    - React/Core
+  - React/RCTWebSocket (0.51.1):
+    - React/Core
+    - React/fishhook
+    - React/RCTBlob
+  - ViroKit (1.0):
+    - AWSDynamoDB (~> 2.6.7)
+    - GVRAudioSDK (= 1.120.0)
+    - GVRSDK (= 1.120.0)
+  - ViroReact (1.0)
+  - yoga (0.51.1.React)
+
+DEPENDENCIES:
+  - DoubleConversion (from `../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec`)
+  - Folly (from `../node_modules/react-native/third-party-podspecs/Folly.podspec`)
+  - GLog (from `../node_modules/react-native/third-party-podspecs/GLog.podspec`)
+  - React/Core (from `../node_modules/react-native`)
+  - React/CxxBridge (from `../node_modules/react-native`)
+  - React/DevSupport (from `../node_modules/react-native`)
+  - React/RCTAnimation (from `../node_modules/react-native`)
+  - React/RCTGeolocation (from `../node_modules/react-native`)
+  - React/RCTImage (from `../node_modules/react-native`)
+  - React/RCTNetwork (from `../node_modules/react-native`)
+  - React/RCTText (from `../node_modules/react-native`)
+  - React/RCTWebSocket (from `../node_modules/react-native`)
+  - ViroKit (from `../node_modules/react-viro/ios/dist/ViroRenderer/`)
+  - ViroReact (from `../node_modules/react-viro/ios/`)
+  - yoga (from `../node_modules/react-native/ReactCommon/yoga`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AWSCore
+    - AWSDynamoDB
+    - boost
+    - GoogleToolboxForMac
+    - GTMSessionFetcher
+    - GVRAudioSDK
+    - GVRSDK
+
+EXTERNAL SOURCES:
+  DoubleConversion:
+    :podspec: "../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec"
+  Folly:
+    :podspec: "../node_modules/react-native/third-party-podspecs/Folly.podspec"
+  GLog:
+    :podspec: "../node_modules/react-native/third-party-podspecs/GLog.podspec"
+  React:
+    :path: "../node_modules/react-native"
+  ViroKit:
+    :path: "../node_modules/react-viro/ios/dist/ViroRenderer/"
+  ViroReact:
+    :path: "../node_modules/react-viro/ios/"
+  yoga:
+    :path: "../node_modules/react-native/ReactCommon/yoga"
+
+SPEC CHECKSUMS:
+  AWSCore: 5da797bc476188fdaf00dec134fa18d84708eca9
+  AWSDynamoDB: 36abff7ce93fcadad2c4dc6f729d8716c933adf2
+  boost: 30a15ffb6d9aa4646dd3caffc960753f4cb4ca4e
+  DoubleConversion: ebb6747c5b66026ad4f97b789c3ceac6f18e57a6
+  Folly: b7255b29f1d693c375d642d0f04f0592181156d9
+  GLog: 3e4e4ae9746ce6bf6e9420c7fc1e08ad59c8ba1a
+  GoogleToolboxForMac: 2b2596cbb7186865e98cadf2b1e262d851c2b168
+  GTMSessionFetcher: 6aacd0ab48ddf0c3633ab2642d792abfcad1b08a
+  GVRAudioSDK: 302f0a8f190d855868ea07f246ce4f9b44c392ae
+  GVRSDK: 0cb9d0ce06a84d698e61e3db9509766022dcf815
+  React: 541ba768b9855e10cdc76f55427a5cd0653ca806
+  ViroKit: 9631f301ef6a3f56116b23d6aac5d5c2307aa368
+  ViroReact: 5520f26ac4654e361786c82da3b29ce0402c3c00
+  yoga: 17521bbb0dd54a47c0b3ac43253e78cdac7488e0
+
+PODFILE CHECKSUM: a21d5f7fd4d0b6ccb9595e8736d0fd670d42784d
+
+COCOAPODS: 1.5.0.beta.1

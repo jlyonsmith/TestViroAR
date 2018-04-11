@@ -1,0 +1,12 @@
+# Blender MTL File: 'question.blend'
+# Material Count: 1
+
+newmtl Yellow
+Ns 237.254902
+Ka 1.000000 1.000000 1.000000
+Kd 0.649412 0.563220 0.009454
+Ks 0.196078 0.184390 0.009218
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
