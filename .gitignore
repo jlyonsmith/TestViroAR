@@ -3,6 +3,7 @@ node_modules/
 scratch/
 android/.gradle/
 android/app/build/
+android/build/intermediates/
 **/.idea/**
 ios/**/xcuserdata/
 ios/Pods/
