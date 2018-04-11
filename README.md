@@ -2,7 +2,7 @@
 
 A sample app to test the ViroAR component.
 
-To create this project I did the following steps.
+To create this project I performed the following steps...
 
 ## Create App, Eject and Test on Devices
 
@@ -15,9 +15,9 @@ I called the app `TestViroAR`.  At this point I do an `rm -rf node_modules && np
 
 ### Android
 
-Opened the file `./android/app/build.gradle` in **Android Studio 3.1**.  Select _Don't remind me again for this project_ when asked to convert.
+Assuming Android Studio command line tools install, `studio ./android/app/`.  Don't upgrade the project when asked to convert.
 
-If you only have SDK's newer than 23 installed, edit `./android/app/build.gradle`:
+Edit `./android/app/build.gradle`:
 
 ```
 android {
@@ -28,7 +28,7 @@ android {
         targetSdkVersion 25
 ```
 
-Per [ViroAR: Integrating to Existing Projects](https://docs.viromedia.com/docs/integrating-existing-projects-android).
+Per [ViroAR: Integrating to Existing Projects](https://docs.viromedia.com/docs/integrating-existing-projects-android) (see below).
 
 Run `adb reverse tcp:8081 tcp:8081 && yarn start` in terminal.  Run the project in **Android Studio** on a real Android device and check all is well.  _Sometimes takes a couple of tries!_
 
